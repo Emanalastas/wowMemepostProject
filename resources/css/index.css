@@ -1,0 +1,65 @@
+.banner {
+    padding: 20px 0;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+#dancinOrc {
+    height: 400px;
+    width: 400px;
+    filter: drop-shadow(2px 2px 2px black);
+    
+}
+
+#orcName{
+    color: dodgerblue;
+    font-size: 100px;
+
+}
+
+#derp ul {
+    list-style-type: none;
+}
+
+.headerNav {
+    display: block;
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+
+.headerNav li{
+    width: 200px;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: auto auto;
+}
+
+.headerNav a {
+    text-decoration: none;
+    color: black;
+}
+
+.orcy {
+    padding: 20px 50px;
+}
+
+.derpAvatar {
+    background-image: url('../images/derp.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
